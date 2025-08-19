@@ -2,7 +2,7 @@ from decimal import Decimal , getcontext
 getcontext().prec = 50
 
 def kaçıncı_basamaktan_itibaren_devrediyor(string):
-    return 1
+    return 5
 #Devretmeyen son basamağı dönücek
 
 def devreden_basamak_sayısı(string):
@@ -22,10 +22,9 @@ def devreden_basamak_sayısı(string):
 
 
 
-
 max_devreden = 0
 max_devreden_sayı = 0
-for i in range(2,50):
+for i in range(2,11):
     result = str(Decimal(1)/Decimal(i))
     result = result[2::]
     şimdiki_devreden = devreden_basamak_sayısı(result)

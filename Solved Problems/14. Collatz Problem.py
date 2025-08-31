@@ -11,16 +11,14 @@ def collatz(number):
         count += 1
     return count
 
-
-
 max_result  = 0
 max_number = 0
 for numbers in range(1,1000000):
-    result = collatz(numbers)
-    print(f"{numbers} has {result} chains")
+    result = collatz(numbers)   
     if result > max_result:
         max_result = result
         max_number = numbers
+        print(f"{numbers} has {result} chains")
 print(f"Max chains: {max_result}")
 print(max_number)
 

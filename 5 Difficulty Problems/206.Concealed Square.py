@@ -20,12 +20,9 @@ def is_target(x):
 number = 10**9 + 30 
 while True:
     if number % 100 == 30 or number % 100 == 70:
-        print(number)
         if is_target(number):
             print("FOUND: ",number)
             break
         number += 40
         continue
     number += 20
-
-#Very Slow

@@ -1,4 +1,4 @@
-with open("79.Passcode Derivation/0079_keylog.txt","r") as f:
+with open("5 Difficulty Problems/79.Passcode Derivation/0079_keylog.txt","r") as f:
     dif_codes = set()
     content = f.read()
     content = content.split("\n")

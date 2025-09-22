@@ -1,4 +1,4 @@
-with open("5 Difficulty Problems/81.Path Sum Two Ways/0081_matrix.txt", "r") as f:
+with open("10 Difficulty Problems/81.Path Sum Two Ways/0081_matrix.txt", "r") as f:
     lines = f.readlines()
 
 matrix = []
